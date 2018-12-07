@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 import api from './api/api'
+import '@/assets/styles/normalize.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$Api = api;
